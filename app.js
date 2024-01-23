@@ -47,7 +47,7 @@ function generarNumero() {
   } else {
     //Si el numero generado está incluido en la lista
     if (listaNumerosSorteados.includes(numeroGenerado)) {
-      return generarNumeroSecreto();
+      return generarNumero();
     } else {
       listaNumerosSorteados.push(numeroGenerado);
       return numeroGenerado;
